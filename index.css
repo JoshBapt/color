@@ -1,0 +1,42 @@
+
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+#containerButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%; /* Set the container height to 100% of the viewport height */
+}
+
+#myButton {
+    background-color: gray; /* Green background */
+    border: none; /* No border */
+    color: black; /* White text */
+    padding: 15px 30px; /* Padding */
+    text-align: center; /* Center text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Display as inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    transition-duration: 1s; /* Animation duration */
+    cursor: pointer; /* Cursor pointer */
+    border-radius: 12px; /* Rounded corners */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Box shadow */
+}
+#myButton:hover {
+    box-shadow: 0 0 20px 0 black; /* Glowing effect on hover */
+}
+#title {
+
+display: flex;
+justify-content: center;
+font-size: 42px;
+font-family:sans-serif;
+
+
+
+}
